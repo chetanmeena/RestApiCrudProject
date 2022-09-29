@@ -40,20 +40,21 @@ public class Product   {
 		// TODO Auto-generated method stub
 		return price;
 	}
-//	public String setName(String name2) {
-//		// TODO Auto-generated method stub
-//		return name2;
-//		
-//	}
-//	public int setQuantity(int quantity2) {
-//
-//		// TODO Auto-generated method stub
-//		return quantity2;
-//	}
-//	public void setPrice(double price2) {
-//		// TODO Auto-generated method stub
-//
-//	}
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		this.name=name;
+		
+	}
+	public void setQuantity(int quantity) {
+
+		// TODO Auto-generated method stub
+		this.quantity= quantity;
+	}
+	public void setPrice(double price) {
+		// TODO Auto-generated method stub
+		this.price=price;
+
+	}
 
 
 }
